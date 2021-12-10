@@ -3,3 +3,7 @@
     justify-content: center;
     align-items: center;
 }
+
+.question {
+    font-size: 64px;
+}

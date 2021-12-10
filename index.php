@@ -4,7 +4,7 @@ $content = file_get_contents("https://www.activisionblizzard.com/leadership");
 
 $bgColor = "bg-success";
 $image = "images/bobby-out.png";
-$answer = "NO!!!!";
+$answer = "HE's OUT!!!! WE DID IT!!!!";
 
 if (str_contains($content, "href=\"/leadership/bobby-kotick\"")) {
     $bgColor = "bg-danger";
@@ -28,7 +28,8 @@ if (str_contains($content, "href=\"/leadership/bobby-kotick\"")) {
     <body>
         <div class="container-fluid vw-100 vh-100 text-center <?= $bgColor ?>">
             <div class="content">
-                <h1 class="text-white font-weight-bold"><?= $answer ?></h1>
+                <h1 class="text-white question">Is Bobby Kotick stil CEO of Activision-Blizzard?</h1><br>
+                <h2 class="text-white font-weight-bold"><?= $answer ?></h2><br>
                 <img src="<?= $image ?>" alt="" class="img-fluid">
             </div>
         </div>
