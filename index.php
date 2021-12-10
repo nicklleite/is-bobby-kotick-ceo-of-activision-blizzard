@@ -20,7 +20,7 @@ if (str_contains($content, "href=\"/leadership/bobby-kotick\"")) {
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Is Bobby Kotick stil CEO of Activision-Blizzard?</title>
+        <title>Is Bobby Kotick still CEO of Activision-Blizzard?</title>
 
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         <link rel="stylesheet" href="css/app.css">
@@ -37,7 +37,7 @@ if (str_contains($content, "href=\"/leadership/bobby-kotick\"")) {
     <body>
         <div class="container-fluid vw-100 vh-100 text-center <?= $bgColor ?>">
             <div class="content">
-                <h1 class="text-white question">Is Bobby Kotick stil CEO of Activision-Blizzard?</h1><br>
+                <h1 class="text-white question">Is Bobby Kotick still CEO of Activision-Blizzard?</h1><br>
                 <h2 class="text-white font-weight-bold"><?= $answer ?></h2><br>
                 <img src="<?= $image ?>" alt="" class="img-fluid">
             </div>
